@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Control de Préstamos · Privacidad y seguridad</title>
+<meta name="description" content="Política de privacidad, política de seguridad y uso personal de la app Control de Préstamos para Android.">
+<style>
+  :root { --brand:#0A8565; --ink:#14201c; --muted:#56655f; --bg:#f2f7f5; --card:#fff; --line:#dbe6e1; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#e3ece8; --muted:#a2b2ac; --bg:#0d1513; --card:#151f1c; --line:#283632; --brand:#62d1ae; } }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; }
+  header { background: linear-gradient(135deg, #0C8C6A, #065F4A); color:#fff; padding: 40px 0 28px; }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+  header h1 { margin: 0 0 6px; font-size: 1.9rem; }
+  header p { margin: 0; }
+  nav { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px; }
+  nav a { color:#fff; text-decoration:none; border:1px solid rgba(255,255,255,.6); border-radius:999px; padding:6px 14px; font-weight:600; font-size:.9rem; }
+  nav a:hover, nav a:focus-visible { background: rgba(255,255,255,.18); outline: 2px solid #fff; outline-offset: 2px; }
+  main { padding: 24px 0 48px; }
+  section.lang { background:var(--card); border:1px solid var(--line); border-radius:18px; padding: 8px 24px 20px; margin: 20px 0; }
+  h2 { color: var(--brand); margin-top: 22px; }
+  h3 { margin: 22px 0 4px; font-size: 1.05rem; }
+  .note { border-left: 4px solid var(--brand); background: rgba(10,133,101,.08); padding: 12px 16px; border-radius: 0 12px 12px 0; }
+  .meta { color: var(--muted); font-size: .92rem; }
+  a { color: var(--brand); }
+  ul { padding-left: 22px; }
+  code { font-size: .9em; }
+  .table-wrap { overflow-x:auto; }
+  table { border-collapse: collapse; width:100%; font-size:.93rem; margin: 8px 0; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight:600; }
+  footer { text-align:center; color:var(--muted); font-size:.85rem; padding-bottom: 32px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Control de Préstamos</h1>
+    <p>Privacidad y seguridad · Privacy and security · Privacidade e segurança</p>
+    <nav aria-label="Idioma / Language / Idioma">
+      <a href="#es">Español</a><a href="#en">English</a><a href="#pt">Português</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ======================= ESPAÑOL ======================= -->
+<section class="lang" id="es" lang="es">
+  <h2>Política de privacidad</h2>
+  <p class="meta">Aplicación: Control de Préstamos (Android, paquete <code>com.alfredoyujra.saldoclaro</code>)<br>
+  Responsable: Alfredo Yujra · La Paz, Bolivia · Contacto: <a href="mailto:alfredjose310@gmail.com">alfredjose310@gmail.com</a><br>
+  Última actualización: 16 de noviembre de 2026</p>
+
+  <div class="note"><strong>Herramienta de uso personal.</strong> Control de Préstamos es una herramienta de uso personal y de
+  apoyo informativo para registrar préstamos entre personas o en un pequeño negocio: montos, cuotas, intereses, pagos,
+  vencimientos y saldos. <strong>No otorga préstamos</strong>, no intermedia dinero y no procesa pagos entre personas.
+  No está diseñada ni autorizada por defecto como sistema oficial empresarial, corporativo, institucional ni gubernamental,
+  no representa a ninguna entidad de gobierno y no sustituye registros, contabilidad, facturación fiscal, controles,
+  asesoría ni procesos oficiales. Los cálculos dependen de los datos que ingresas; eres responsable de verificarlos y de
+  cumplir las normas que te correspondan.</div>
+
+  <h3>1. Resumen</h3>
+  <p>Tus datos se guardan <strong>solo en tu teléfono</strong>, en una base de datos cifrada. La versión publicada de la app
+  <strong>no tiene permiso de Internet</strong>: no puede enviar tus datos a ningún servidor. No tenemos servidores propios
+  ni bases de datos externas, no creamos cuentas, no mostramos anuncios y no usamos analítica ni rastreo.
+  No recibimos, vendemos ni compartimos tus datos.</p>
+
+  <h3>2. Qué datos guarda la app y dónde</h3>
+  <ul>
+    <li>Préstamos (monto, fechas, tasa, cuotas, recargos, categoría y nota), cuotas, pagos e historial de cambios.</li>
+    <li>Contactos que escribes a mano: nombre y, si quieres, teléfono y nota. La app no accede a la agenda del teléfono.</li>
+    <li>Tu nombre o el de tu negocio y el logo que elijas (opcionales), para Inicio y los reportes PDF.</li>
+    <li>Preferencias: país, moneda, idioma, apariencia, recordatorios y bloqueo.</li>
+  </ul>
+  <p>Todo queda en el almacenamiento privado de la app. El logo se reduce y se vuelve a codificar, descartando sus
+  metadatos (por ejemplo, la ubicación de una foto).</p>
+
+  <h3>3. Copia de seguridad (opcional y manual)</h3>
+  <p>La app crea un <strong>archivo cifrado</strong> en tu teléfono. Tú decides dónde guardarlo: la app puede abrir la app
+  de Google Drive de tu teléfono para que lo guardes, guardarlo en otra carpeta o compartirlo. La app no usa la API de
+  Google Drive, no inicia sesión con tu cuenta, no ve tus otros archivos y nunca te pide tu contraseña de Gmail.
+  Sin la contraseña de la copia, nadie puede abrir el archivo.</p>
+
+  <h3>4. Compras y prueba gratis</h3>
+  <p>Los primeros 15 días de Pro son gratis, sin tarjeta ni cobros. Las compras Pro (mensual, anual o pago único) las procesa
+  <strong>Google Play</strong>; no recibimos tus datos de pago. Puedes cancelar la suscripción en Google Play cuando quieras
+  y pedir reembolsos según la política de Google Play.</p>
+
+  <h3>5. Notificaciones</h3>
+  <p>Los recordatorios de cuotas se calculan en el teléfono y son opcionales. Con el teléfono bloqueado no muestran nombres
+  ni montos. Si no das permiso, la app funciona igual.</p>
+
+  <h3>6. Sin publicidad, rastreo ni cookies</h3>
+  <p>Ninguna versión contiene anuncios, SDK de publicidad o analítica, identificadores publicitarios ni cookies.</p>
+
+  <h3>7. Permisos</h3>
+  <div class="table-wrap"><table>
+    <tr><th>Permiso</th><th>Para qué</th></tr>
+    <tr><td>Notificaciones</td><td>Recordatorios de cuotas (opcional).</td></tr>
+    <tr><td>Iniciar al encender el teléfono</td><td>Volver a programar los recordatorios tras reiniciar.</td></tr>
+    <tr><td>Estado de la red</td><td>Solo mostrar el aviso «Sin conexión».</td></tr>
+    <tr><td>Biometría</td><td>Desbloquear con huella o rostro (opcional; el PIN siempre sirve).</td></tr>
+    <tr><td>Google Play Billing</td><td>Comprar y verificar Pro.</td></tr>
+  </table></div>
+  <p>La app <strong>no</strong> pide Internet, ubicación, contactos, cámara ni acceso a tus archivos: las imágenes y copias
+  las eliges tú con el selector de Android.</p>
+
+  <h3>8. Tus derechos y cómo borrar tus datos</h3>
+  <ul>
+    <li><strong>Acceso:</strong> exporta tus datos en PDF o Excel desde la app.</li>
+    <li><strong>Rectificación:</strong> edita cualquier préstamo, pago o contacto.</li>
+    <li><strong>Cancelación:</strong> borra un préstamo o contacto, o todo en Configuración › Borrar todos mis datos.
+      También puedes desinstalar la app. Los archivos de copia que guardaste fuera de la app los borras tú donde los guardaste.</li>
+    <li><strong>Oposición:</strong> deja de usar la app; no hay cuentas ni listas de correo.</li>
+  </ul>
+
+  <h3>9. Menores de edad</h3>
+  <p>La app está dirigida a personas adultas y no está pensada para niños.</p>
+
+  <h3>10. Cambios y contacto</h3>
+  <p>Si cambiamos esta política, actualizaremos la fecha de arriba. Escríbenos a
+  <a href="mailto:alfredjose310@gmail.com">alfredjose310@gmail.com</a>; no envíes datos de tus préstamos ni contraseñas.
+  Esta política no limita los derechos que la ley te reconoce.</p>
+
+  <h2>Política de seguridad</h2>
+  <ul>
+    <li><strong>Base de datos cifrada:</strong> SQLite3MultipleCiphers con una clave aleatoria de 256 bits guardada en el
+      almacén seguro de Android (Keystore).</li>
+    <li><strong>Copias cifradas:</strong> AES-256-GCM; la clave se protege con tu contraseña de copia mediante Argon2id.
+      Al restaurar se comprueban la integridad (SHA-256), el formato y la versión antes de cambiar nada, y se guarda una
+      copia local cifrada de tus datos actuales para poder volver atrás.</li>
+    <li><strong>Bloqueo de la app:</strong> PIN de 4 a 6 dígitos (solo se guarda un hash PBKDF2 con sal), espera creciente tras
+      5 intentos fallidos, huella o rostro opcional y contenido oculto en «apps recientes».</li>
+    <li><strong>Sin Internet:</strong> la versión publicada no tiene ese permiso ni tráfico sin cifrar
+      (<code>usesCleartextTraffic=false</code>). La copia automática de Android está desactivada.</li>
+    <li><strong>Mínimo privilegio:</strong> solo los permisos de la tabla anterior; los únicos componentes expuestos a otras apps
+      son la pantalla principal y uno interno de Android protegido.</li>
+    <li><strong>Archivos temporales:</strong> los reportes compartidos, archivos importados y copias a medio hacer se borran al
+      abrir la app; los archivos elegidos se borran de la caché en cuanto se leen.</li>
+    <li><strong>Registros:</strong> la app no escribe datos personales, montos ni contraseñas en los registros del sistema.</li>
+  </ul>
+  <p><strong>Reportar un problema de seguridad:</strong> escribe a
+  <a href="mailto:alfredjose310@gmail.com">alfredjose310@gmail.com</a> con el asunto «Seguridad». Lo revisaremos y te
+  responderemos. Ninguna medida es infalible: protege tu teléfono con bloqueo de pantalla y guarda tu contraseña de copia
+  en un lugar seguro.</p>
+</section>
+
+<!-- ======================= ENGLISH ======================= -->
+<section class="lang" id="en" lang="en">
+  <h2>Privacy policy</h2>
+  <p class="meta">App: Loan Control (Android, package <code>com.alfredoyujra.saldoclaro</code>)<br>
+  Controller: Alfredo Yujra · La Paz, Bolivia · Contact: <a href="mailto:alfredjose310@gmail.com">alfredjose310@gmail.com</a><br>
+  Last updated: November 16, 2026</p>
+
+  <div class="note"><strong>A personal-use tool.</strong> Loan Control is a personal, informational tool to record loans between
+  people or in a small business: amounts, installments, interest, payments, due dates and balances. <strong>It doesn't provide
+  loans</strong>, handle money or process payments between people. By default it isn't designed or authorized as an official
+  business, corporate, institutional or government system, doesn't represent any government body and doesn't replace official
+  records, accounting, tax invoicing, controls, advice or processes. Calculations depend on the data you enter; you're
+  responsible for checking it and complying with the rules that apply to you.</div>
+
+  <h3>1. Summary</h3>
+  <p>Your data is stored <strong>only on your phone</strong>, in an encrypted database. The published app <strong>has no internet
+  permission</strong>: it can't send your data to any server. We have no servers or external databases, create no accounts,
+  show no ads and use no analytics or tracking. We don't receive, sell or share your data.</p>
+
+  <h3>2. What the app stores and where</h3>
+  <ul>
+    <li>Loans (amount, dates, rate, installments, late fees, category and note), installments, payments and change history.</li>
+    <li>Contacts you type in: name and, optionally, phone and note. The app doesn't access your phone's contacts.</li>
+    <li>Your name or business name and the logo you choose (optional), for Home and PDF reports.</li>
+    <li>Preferences: country, currency, language, appearance, reminders and lock.</li>
+  </ul>
+  <p>Everything stays in the app's private storage. The logo is resized and re-encoded, discarding its metadata (such as a photo's location).</p>
+
+  <h3>3. Backup (optional and manual)</h3>
+  <p>The app creates an <strong>encrypted file</strong> on your phone. You decide where to keep it: the app can open the Google Drive
+  app on your phone so you save it there, save it to another folder or share it. The app doesn't use the Google Drive API,
+  doesn't sign in with your account, can't see your other files and never asks for your Gmail password. Without the backup
+  password, no one can open the file.</p>
+
+  <h3>4. Purchases and free trial</h3>
+  <p>The first 15 days of Pro are free, with no card and no charges. Pro purchases (monthly, yearly or one-time) are processed by
+  <strong>Google Play</strong>; we don't receive your payment details. You can cancel your subscription in Google Play at any time
+  and request refunds under Google Play's policy.</p>
+
+  <h3>5. Notifications</h3>
+  <p>Installment reminders are calculated on the phone and are optional. On a locked phone they don't show names or amounts.
+  If you don't grant permission, the app works the same.</p>
+
+  <h3>6. No ads, tracking or cookies</h3>
+  <p>No version contains ads, advertising or analytics SDKs, advertising IDs or cookies.</p>
+
+  <h3>7. Permissions</h3>
+  <div class="table-wrap"><table>
+    <tr><th>Permission</th><th>Purpose</th></tr>
+    <tr><td>Notifications</td><td>Installment reminders (optional).</td></tr>
+    <tr><td>Run at startup</td><td>Reschedule reminders after a restart.</td></tr>
+    <tr><td>Network state</td><td>Only to show the "Offline" notice.</td></tr>
+    <tr><td>Biometrics</td><td>Unlock with fingerprint or face (optional; the PIN always works).</td></tr>
+    <tr><td>Google Play Billing</td><td>Buy and verify Pro.</td></tr>
+  </table></div>
+  <p>The app does <strong>not</strong> request internet, location, contacts, camera or access to your files: you pick images and
+  backups with the Android picker.</p>
+
+  <h3>8. Your rights and deleting your data</h3>
+  <ul>
+    <li><strong>Access:</strong> export your data as PDF or Excel from the app.</li>
+    <li><strong>Rectification:</strong> edit any loan, payment or contact.</li>
+    <li><strong>Erasure:</strong> delete a loan or contact, or everything in Settings › Delete all my data, or uninstall the app.
+      Backup files you saved outside the app are deleted by you wherever you saved them.</li>
+    <li><strong>Objection:</strong> stop using the app; there are no accounts or mailing lists.</li>
+  </ul>
+
+  <h3>9. Children</h3>
+  <p>The app is meant for adults and isn't intended for children.</p>
+
+  <h3>10. Changes and contact</h3>
+  <p>If we change this policy, we'll update the date above. Write to
+  <a href="mailto:alfredjose310@gmail.com">alfredjose310@gmail.com</a>; don't send your loan data or passwords.
+  This policy doesn't limit the rights the law gives you.</p>
+
+  <h2>Security policy</h2>
+  <ul>
+    <li><strong>Encrypted database:</strong> SQLite3MultipleCiphers with a random 256-bit key stored in the Android Keystore.</li>
+    <li><strong>Encrypted backups:</strong> AES-256-GCM; the key is protected by your backup password using Argon2id. Before
+      restoring, integrity (SHA-256), format and version are checked without changing anything, and an encrypted local copy of
+      your current data is kept so you can roll back.</li>
+    <li><strong>App lock:</strong> a 4 to 6 digit PIN (only a salted PBKDF2 hash is stored), increasing wait after 5 failed attempts,
+      optional fingerprint or face, and content hidden in "recent apps".</li>
+    <li><strong>No internet:</strong> the published app has no such permission and no cleartext traffic
+      (<code>usesCleartextTraffic=false</code>). Android's automatic backup is disabled.</li>
+    <li><strong>Least privilege:</strong> only the permissions in the table above; the only components exposed to other apps are
+      the main screen and a protected internal Android one.</li>
+    <li><strong>Temporary files:</strong> shared reports, imported files and unfinished backups are deleted when the app opens;
+      picked files are removed from the cache as soon as they're read.</li>
+    <li><strong>Logs:</strong> the app doesn't write personal data, amounts or passwords to system logs.</li>
+  </ul>
+  <p><strong>Reporting a security issue:</strong> write to <a href="mailto:alfredjose310@gmail.com">alfredjose310@gmail.com</a>
+  with the subject "Security". We'll review it and reply. No measure is foolproof: protect your phone with a screen lock and
+  keep your backup password somewhere safe.</p>
+</section>
+
+<!-- ======================= PORTUGUÊS ======================= -->
+<section class="lang" id="pt" lang="pt">
+  <h2>Política de privacidade</h2>
+  <p class="meta">Aplicativo: Controle de Empréstimos (Android, pacote <code>com.alfredoyujra.saldoclaro</code>)<br>
+  Responsável: Alfredo Yujra · La Paz, Bolívia · Contato: <a href="mailto:alfredjose310@gmail.com">alfredjose310@gmail.com</a><br>
+  Última atualização: 16 de novembro de 2026</p>
+
+  <div class="note"><strong>Ferramenta de uso pessoal.</strong> O Controle de Empréstimos é uma ferramenta de uso pessoal e de apoio
+  informativo para registrar empréstimos entre pessoas ou em um pequeno negócio: valores, parcelas, juros, pagamentos,
+  vencimentos e saldos. <strong>Não concede empréstimos</strong>, não intermedeia dinheiro e não processa pagamentos entre pessoas.
+  Por padrão, não foi projetado nem autorizado como sistema oficial empresarial, corporativo, institucional ou governamental,
+  não representa nenhuma entidade de governo e não substitui registros, contabilidade, emissão fiscal, controles, assessoria ou
+  processos oficiais. Os cálculos dependem dos dados que você informa; você é responsável por verificá-los e cumprir as normas
+  que se aplicam a você.</div>
+
+  <h3>1. Resumo</h3>
+  <p>Seus dados ficam <strong>só no seu celular</strong>, em um banco de dados criptografado. A versão publicada do app
+  <strong>não tem permissão de internet</strong>: não pode enviar seus dados a nenhum servidor. Não temos servidores nem bancos de
+  dados externos, não criamos contas, não mostramos anúncios e não usamos análise nem rastreamento. Não recebemos, vendemos nem
+  compartilhamos seus dados.</p>
+
+  <h3>2. Quais dados o app guarda e onde</h3>
+  <ul>
+    <li>Empréstimos (valor, datas, taxa, parcelas, multas, categoria e nota), parcelas, pagamentos e histórico de alterações.</li>
+    <li>Contatos que você digita: nome e, se quiser, telefone e nota. O app não acessa a agenda do celular.</li>
+    <li>Seu nome ou o do seu negócio e o logo que escolher (opcionais), para o Início e os relatórios PDF.</li>
+    <li>Preferências: país, moeda, idioma, aparência, lembretes e bloqueio.</li>
+  </ul>
+  <p>Tudo fica no armazenamento privado do app. O logo é reduzido e recodificado, descartando seus metadados (por exemplo, a localização de uma foto).</p>
+
+  <h3>3. Backup (opcional e manual)</h3>
+  <p>O app cria um <strong>arquivo criptografado</strong> no seu celular. Você decide onde guardá-lo: o app pode abrir o app do Google
+  Drive do seu celular para você salvá-lo, salvá-lo em outra pasta ou compartilhá-lo. O app não usa a API do Google Drive, não entra
+  com sua conta, não vê seus outros arquivos e nunca pede sua senha do Gmail. Sem a senha do backup, ninguém pode abrir o arquivo.</p>
+
+  <h3>4. Compras e teste grátis</h3>
+  <p>Os primeiros 15 dias de Pro são grátis, sem cartão e sem cobranças. As compras Pro (mensal, anual ou pagamento único) são
+  processadas pelo <strong>Google Play</strong>; não recebemos seus dados de pagamento. Você pode cancelar a assinatura no Google Play
+  quando quiser e pedir reembolso conforme a política do Google Play.</p>
+
+  <h3>5. Notificações</h3>
+  <p>Os lembretes de parcelas são calculados no celular e são opcionais. Com o celular bloqueado, não mostram nomes nem valores.
+  Se você não der permissão, o app funciona igual.</p>
+
+  <h3>6. Sem anúncios, rastreamento nem cookies</h3>
+  <p>Nenhuma versão contém anúncios, SDKs de publicidade ou análise, identificadores de publicidade nem cookies.</p>
+
+  <h3>7. Permissões</h3>
+  <div class="table-wrap"><table>
+    <tr><th>Permissão</th><th>Para quê</th></tr>
+    <tr><td>Notificações</td><td>Lembretes de parcelas (opcional).</td></tr>
+    <tr><td>Iniciar ao ligar o celular</td><td>Reagendar os lembretes após reiniciar.</td></tr>
+    <tr><td>Estado da rede</td><td>Só para mostrar o aviso «Sem conexão».</td></tr>
+    <tr><td>Biometria</td><td>Desbloquear com digital ou rosto (opcional; o PIN sempre funciona).</td></tr>
+    <tr><td>Google Play Billing</td><td>Comprar e verificar o Pro.</td></tr>
+  </table></div>
+  <p>O app <strong>não</strong> pede internet, localização, contatos, câmera nem acesso aos seus arquivos: você escolhe imagens e
+  backups com o seletor do Android.</p>
+
+  <h3>8. Seus direitos e como apagar seus dados</h3>
+  <ul>
+    <li><strong>Acesso:</strong> exporte seus dados em PDF ou Excel pelo app.</li>
+    <li><strong>Retificação:</strong> edite qualquer empréstimo, pagamento ou contato.</li>
+    <li><strong>Eliminação:</strong> apague um empréstimo ou contato, ou tudo em Configurações › Apagar todos os meus dados, ou desinstale o app.
+      Os arquivos de backup salvos fora do app você apaga onde os salvou.</li>
+    <li><strong>Oposição:</strong> pare de usar o app; não há contas nem listas de e-mail.</li>
+  </ul>
+
+  <h3>9. Crianças</h3>
+  <p>O app é destinado a adultos e não é pensado para crianças.</p>
+
+  <h3>10. Mudanças e contato</h3>
+  <p>Se mudarmos esta política, atualizaremos a data acima. Escreva para
+  <a href="mailto:alfredjose310@gmail.com">alfredjose310@gmail.com</a>; não envie dados dos seus empréstimos nem senhas.
+  Esta política não limita os direitos que a lei garante a você.</p>
+
+  <h2>Política de segurança</h2>
+  <ul>
+    <li><strong>Banco de dados criptografado:</strong> SQLite3MultipleCiphers com uma chave aleatória de 256 bits guardada no
+      armazenamento seguro do Android (Keystore).</li>
+    <li><strong>Backups criptografados:</strong> AES-256-GCM; a chave é protegida pela sua senha do backup com Argon2id. Antes de
+      restaurar, verificam-se a integridade (SHA-256), o formato e a versão sem mudar nada, e uma cópia local criptografada dos
+      seus dados atuais é guardada para poder voltar atrás.</li>
+    <li><strong>Bloqueio do app:</strong> PIN de 4 a 6 dígitos (só é guardado um hash PBKDF2 com sal), espera crescente após 5
+      tentativas erradas, digital ou rosto opcional e conteúdo oculto em «apps recentes».</li>
+    <li><strong>Sem internet:</strong> a versão publicada não tem essa permissão nem tráfego sem criptografia
+      (<code>usesCleartextTraffic=false</code>). O backup automático do Android está desativado.</li>
+    <li><strong>Privilégio mínimo:</strong> só as permissões da tabela acima; os únicos componentes expostos a outros apps são a tela
+      principal e um interno do Android protegido.</li>
+    <li><strong>Arquivos temporários:</strong> relatórios compartilhados, arquivos importados e backups incompletos são apagados ao
+      abrir o app; os arquivos escolhidos saem do cache assim que são lidos.</li>
+    <li><strong>Registros:</strong> o app não grava dados pessoais, valores nem senhas nos registros do sistema.</li>
+  </ul>
+  <p><strong>Relatar um problema de segurança:</strong> escreva para <a href="mailto:alfredjose310@gmail.com">alfredjose310@gmail.com</a>
+  com o assunto «Segurança». Vamos analisar e responder. Nenhuma medida é infalível: proteja seu celular com bloqueio de tela e
+  guarde a senha do backup em um lugar seguro.</p>
+</section>
+
+</main>
+<footer>© 2026 Alfredo Yujra · Control de Préstamos · Sin anuncios · Datos solo en tu teléfono</footer>
+</body>
+</html>
